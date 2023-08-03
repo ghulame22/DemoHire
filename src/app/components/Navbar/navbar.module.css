@@ -1,0 +1,27 @@
+.navbar_wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.navbar_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  width: 65rem;
+}
+
+.navbar_title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: rgb(73, 72, 72);
+}
+.navbar_container_menu {
+  display: flex;
+  gap: 2rem;
+  color: #438fde;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 18px;
+}
