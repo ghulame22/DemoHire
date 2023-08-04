@@ -11,8 +11,10 @@
   align-items: center;
   text-align: center;
   flex: 0 0 30%;
+  gap: 1rem;
 }
 .image {
   height: 80px;
   width: 80px;
+  border-radius: 50%;
 }

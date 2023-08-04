@@ -27,7 +27,7 @@ export default function StepsCard() {
     return cards.map((icon) => (
       <div key={icon.alt} className={styles.container}>
         <div className={styles.image}>
-          <Image src={icon.src} alt="dummyicon" width={20} height={20} />
+          <Image src={icon.src} alt="dummyicon" />
         </div>
         <div>{icon.name}</div>
         <div>{icon.desc}</div>
